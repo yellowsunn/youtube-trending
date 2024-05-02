@@ -1,10 +1,18 @@
 package com.yellowsunn.youtubetrending.infrastructure.http
 
-import com.yellowsunn.youtubetrending.domain.youtube.YoutubeHttpClient
-import com.yellowsunn.youtubetrending.dto.YoutubeTrendingAllDto
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeTrendingHttpResponse
+import org.springframework.cloud.openfeign.FeignClient
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestParam
 
-class YoutubeFeignClient : YoutubeHttpClient {
-    override fun findTrendingAll(): YoutubeTrendingAllDto {
-        TODO("Not yet implemented")
-    }
+@FeignClient(name = "youtube-api")
+interface YoutubeFeignClient {
+    @GetMapping(
+        "/trending",
+        headers = ["X-RapidAPI-Host=yt-api.p.rapidapi.com", "X-RapidAPI-Key=\${rapid-api.key}"],
+    )
+    fun getTrending(
+        @RequestParam geo: String,
+        @RequestParam lang: String,
+    ): YoutubeTrendingHttpResponse
 }
