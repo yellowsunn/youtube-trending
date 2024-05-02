@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Youtube</title>
+</head>
+<body>
+  <ul th:each="video: ${trendingVideos}">
+    <li th:text="${video.videoId}"></li>
+    <img th:src="${video.thumbnail}"/>
+  </ul>
+</body>
+</html>

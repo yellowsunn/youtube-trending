@@ -1,0 +1,1479 @@
+{
+  "kind": "youtube#searchListResponse",
+  "pageInfo": {
+    "totalResults": 49,
+    "resultsPerPage": 49
+  },
+  "items": [
+    {
+      "kind": "youtube#video",
+      "id": "07EzMbVH3QE",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
+        "title": "IVE 아이브 '해야 (HEYA)' MV",
+        "description": "STARSHIP SQUARE (Domestic) : https://bit.ly/3HtQ7GF\nSTARSHIP SQUARE (Global) : https://bit.ly/3JWPxm0\nIVE US EXCLUSIVE STORE : https://shop.ive-starship.com/  \nPRE-SAVE IVE SWITCH : https://www.ive...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/07EzMbVH3QE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/07EzMbVH3QE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/07EzMbVH3QE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "STARSHIP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "xRZdaiUexco",
+      "snippet": {
+        "publishedAt": "2024-05-01T00:00:00Z",
+        "channelId": "UCicKQUi8h4NI81wDmrDBD4A",
+        "title": "미국 고속도로 위, 차에서 아기가 나올 것 같아요!!",
+        "description": "[신간] 당도 100퍼센트의 행복]\n예스24 : https://bit.ly/40AzHEq\n알라딘 : https://bit.ly/46aZaFG\n교보문고 : https://bit.ly/3QXnAyi\n\n[올리버쌤 도서로 학습하기]\n(신간)...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xRZdaiUexco/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xRZdaiUexco/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xRZdaiUexco/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "올리버쌤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-01T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "F2Ib564MBFo",
+      "snippet": {
+        "publishedAt": "2024-04-30T00:00:00Z",
+        "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+        "title": "[BE ORIGINAL] IVE(아이브) '해야 (HEYA)' (4K)",
+        "description": "[BE ORIGINAL] IVE 'HEYA'\n[비 오리지널] 아이브 '해야'\n\n아이브와 스춤의 만남! 이미 이긴 패야😎\n(2:48) 케이팝 한입에 삼켜버렸자낭🖤🍀🍀\n\n#IVE #아이브...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F2Ib564MBFo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F2Ib564MBFo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F2Ib564MBFo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-30T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "ThI0pBAbFnk",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "SEVENTEEN (세븐틴) 'MAESTRO' Official MV",
+        "description": "SEVENTEEN (세븐틴) 'MAESTRO' Official MV\n\nCredit:\nProducer｜HAN SUNGSOO\n\nHead of Production｜KIM DAUN\n\nCreative Director｜YI HYOJIN\n\nCreative Production｜CHO SUMIN, JANG DAHYE, PAK SEOYOUNG,...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ThI0pBAbFnk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ThI0pBAbFnk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ThI0pBAbFnk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "dfdK1IKr1Tg",
+      "snippet": {
+        "publishedAt": "2024-04-30T00:00:00Z",
+        "channelId": "UCgiO7Kxib0SZEG0DoeuBkdQ",
+        "title": "\"얘들아.. 왜 우리끼리 싸워?\" 오자마자 서열 1위가 된 침착맨에 대해서.. (feat. 침착맨, 빠니보틀, 곽튜브, 키드밀리) [라면꼰대5] EP25",
+        "description": "적군에서 아군이 된 침착맨과 함께하는\n파김치 갱 첫 활동\n\n암시장에서 구매한 수상한 활동비품..\n각이 잡혀가는 시즌송 제작..\n\n근데..\n오늘이...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dfdK1IKr1Tg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dfdK1IKr1Tg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dfdK1IKr1Tg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "the BOB studio | 더 밥 스튜디오",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-30T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "SW_2JgnrX4c",
+      "snippet": {
+        "publishedAt": "2024-05-01T00:00:00Z",
+        "channelId": "UCE8SAlfZT-T8iwa7aOD8vaQ",
+        "title": "※충격실화※ 현주디 결혼하다….!🫢",
+        "description": "여러분 오랜만에왔쥬...?🥹\n한달만이네요\n하고싶은이야기가 참 많지만\n말하지않아도 알아주는 올라프친구들\n너무 감사해요...!\n파사삭된 멘탈...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SW_2JgnrX4c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SW_2JgnrX4c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SW_2JgnrX4c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아옳이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-01T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "2Y57BFS3oik",
+      "snippet": {
+        "publishedAt": "2024-04-30T00:00:00Z",
+        "channelId": "UCG_cznJui7UMPYbPBLp8vOw",
+        "title": "[EN/JP] SurpRIIZING jewels 💎RIIZE②💎 l Hong Seokcheon's Jewel Box Season 2 EP.10",
+        "description": "Hong Seokcheon's Jewel Box Season 2 l Ninth Jewel RIIZE\n💎New jewel released every Tuesday at 6:30 PM💎\n\n00:00 Start\n00:05 WONBIN's appraisal\n03:34 RIIZE welcome dance\n04:39 How they joined...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2Y57BFS3oik/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2Y57BFS3oik/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2Y57BFS3oik/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "홍석천의 보석함 ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-30T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "S4jKdQ_fH9A",
+      "snippet": {
+        "publishedAt": "2024-05-01T00:00:00Z",
+        "channelId": "UCaoqDZPllYXLAH_5OBRLLrw",
+        "title": "그동안 채코제의 옥탑방을 사랑해 주셔서 감사했습니다.",
+        "description": "가장 치열했고, 뜨거웠던 나의 옥탑 생활 끝.\n\n-----------------------------------------------------------------------------------------------\n음악 :\n- 아트리스트 음원...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S4jKdQ_fH9A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S4jKdQ_fH9A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S4jKdQ_fH9A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "채코제 Channel Korean Jay",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-01T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "ft70sAYrFyY",
+      "snippet": {
+        "publishedAt": "2024-04-26T00:00:00Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "NewJeans (뉴진스) 'Bubble Gum' Official MV",
+        "description": "NewJeans (뉴진스) 'Bubble Gum' Official MV\n\nProducer: MIN HEE JIN\nMusic Video Director: Youngeum Lee\n\n© 2024 ADOR. All Rights Reserved.\n\nConnect with NewJeans\nPHONING https://phoning.onelink.me...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ft70sAYrFyY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-26T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "B-Ej_Hgf8_M",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "title": "[내꺼내먹_EP.14] 초심 잃은 새마을식당?! 제꺼 긴급 점검 들어갑니다😭",
+        "description": "#백종원 #내꺼내먹 #새마을식당\n\n브랜드를 오래 운영하다 보면 \n많은 시행착오와 위기를 겪을 때도 있는데요.\n오랫동안 사랑받아 온 새마을식당!...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B-Ej_Hgf8_M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B-Ej_Hgf8_M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B-Ej_Hgf8_M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "백종원 PAIK JONG WON",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "J4OV_VGKwfU",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCNhofiqfw5nl-NeDJkXtPvw",
+        "title": "기안84식 무계획 랜덤여행, 그리고 그를 따르는 여행자들【규슈下】",
+        "description": "랜담 사나이\n--------------------------------------\n카메라\n\nDJI Action4\nGopro12\nGalaxy S24 Ultra\nInsta360 X3\n--------------------------------------\n배경음악\n\nJahzzar - Polaroid\nhttps://w...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J4OV_VGKwfU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J4OV_VGKwfU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J4OV_VGKwfU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "빠니보틀 Pani Bottle",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "f-LQoNN3hIk",
+      "snippet": {
+        "publishedAt": "2024-05-01T00:00:00Z",
+        "channelId": "UC9GtSLeksfK4yuJ_g1lgQbg",
+        "title": "aespa 에스파 'Armageddon' Launch Code",
+        "description": "aespa's 1st Album \"Armageddon\" will be released on May 27th, 6PM (KST).\n🔗 https://aespa.com\n\naespa Official\nhttps://www.youtube.com/c/aespa\nhttps://www.instagram.com/aespa_official\nhttps://www.t...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f-LQoNN3hIk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f-LQoNN3hIk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f-LQoNN3hIk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "aespa",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-01T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "e4tlvgKtcuw",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "청춘찬가",
+        "description": "Provided to YouTube by PLEDIS Entertainment\n\n청춘찬가 · SEVENTEEN\n\nSEVENTEEN BEST ALBUM ‘17 IS RIGHT HERE’\n\n℗ PLEDIS Entertainment\n\nReleased on: 2024-04-29\n\nAuto-generated by YouTube.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e4tlvgKtcuw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e4tlvgKtcuw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e4tlvgKtcuw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "ujU2DFxLAw0",
+      "snippet": {
+        "publishedAt": "2024-04-30T00:00:00Z",
+        "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+        "title": "[Leemujin Service] EP.112 IVE REI, LIZ | HEYA, Love wins all, A Man Like Me, plot twist",
+        "description": "#REI #LIZ #IVE\n#LEEMUJIN #LEEMUJINSERVICE\n\n00:00 HEYA (해야)\n05:49 Love wins all \n11:00 A Man Like Me \n21:22 Stay Beautiful \n29:22 plot twist (첫 만남은 계획대로 되지 않아)\n\nWe...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ujU2DFxLAw0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ujU2DFxLAw0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ujU2DFxLAw0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS Kpop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-30T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "3AoruwUKQ3I",
+      "snippet": {
+        "publishedAt": "2024-04-30T00:00:00Z",
+        "channelId": "UCrgjx6tf6T021T2i-k9cRIw",
+        "title": "도경수 Doh Kyung Soo 'Popcorn' MV",
+        "description": "#도경수 #Dohkyungsoo #Popcorn \n\n도경수 미니 앨범 [성장]\nDoh Kyung Soo Mini Album [Blossom]\n➫ 2024.5.7 6PM (KST)\n\n🔗 https://companysoosoo.com/\n\nhttps://www.youtube.com/@companysooso...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3AoruwUKQ3I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3AoruwUKQ3I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3AoruwUKQ3I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "컴퍼니수수 Company Soosoo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-30T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "KBWAFWuhszU",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UC9PVYlrwFSlqG7w8TDsqRvQ",
+        "title": "[MV] Kim Soo Hyun(김수현) - Way Home(청혼)",
+        "description": "[MV] Kim Soo Hyun(김수현) - Way Home(청혼)\n\ntvN Drama Queen of Tears(2024) Special Original Sound Track\n\nNow Available on : \n▶Bugs : https://music.bugs.co.kr/album/4100542\n\n#김수현...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KBWAFWuhszU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KBWAFWuhszU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KBWAFWuhszU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SUPER SOUND Bugs!",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "JVeoqwgB9iE",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UC1Rz7a_DWtsE9cQwSyElE0Q",
+        "title": "생존과 달리기",
+        "description": "https://m.nbkorea.com/collection/RUNYOURWAY.action\n뉴발란스 Run your way 캠페인 바로가기\n\n#기안84\nIG - @khmnim1513\nBiz E-Mail - backho2301@gmail.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JVeoqwgB9iE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JVeoqwgB9iE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JVeoqwgB9iE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "인생84",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "xfqBQ2XhBCg",
+      "snippet": {
+        "publishedAt": "2024-04-26T00:00:00Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "ZICO (지코) ‘SPOT! (feat. JENNIE)’ Official MV",
+        "description": "ZICO 11th Digital Single ‘SPOT! (feat. JENNIE)’\n\n🎧http://zico.lnk.to/SPOT \n\n#ZICO #지코 #JENNIE #제니 #SPOT #스팟\n      \nCredits:\n\nDIRECTOR | YONGSEOK CHOI (LUMPENS) \nCO-DIRECTOR...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xfqBQ2XhBCg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xfqBQ2XhBCg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xfqBQ2XhBCg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-26T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "KhAuA2Vb3K8",
+      "snippet": {
+        "publishedAt": "2024-04-30T00:00:00Z",
+        "channelId": "UClRNDVO8093rmRTtLe4GEPw",
+        "title": "오랜 일본팬이 갑자기 최애의 아이돌을 만난다면 - 미나미(끝)",
+        "description": "* 이번 영상은 더미식 유료 광고를 포함하고 있습니다\n\n지금까지 미나미와의 한국여행 봐주셔서 감사하고\n또 새로운 영상으로 찾아뵙겠습니다....",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KhAuA2Vb3K8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KhAuA2Vb3K8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KhAuA2Vb3K8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "곽튜브",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-30T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "sUY8fn1sO9M",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UCoC-ZGuPCvJJrbcz9eMW8zw",
+        "title": "Seungheon talks about the blank period | GABEE's Rising Star🏠 | EP19",
+        "description": "#Gabee'sRisingStar #승헌쓰 #Gabee\n\n🔥To be a rising star, Gabee's 19th prescription🔥\n\n\"Loyalty!🫡 When you say 'go,' it ends up being toothpaste!🫡\"\n\"I am an immortal junior🔥\"...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sUY8fn1sO9M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sUY8fn1sO9M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sUY8fn1sO9M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "가비 걸 GABEE GIRL",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "9CNda2oSm44",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UC3Tjj344taq3njy4yaK8ZWw",
+        "title": "(ENG SUB) a surprise gift from Dad-in-law",
+        "description": "각종 문의는 이메일로 부탁드립니다!\n- tllukianets@gmail.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9CNda2oSm44/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9CNda2oSm44/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9CNda2oSm44/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한국사는따냐 Tanya in Korea",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "K4-1MCSYWJY",
+      "snippet": {
+        "publishedAt": "2024-04-27T00:00:00Z",
+        "channelId": "UCXVhGNDrOfVUYEvuRdM0OXA",
+        "title": "육상 여신 김민지 선수와 100m 달리기!🔥 육상 선수 클라쓰 ㄷㄷ",
+        "description": "[구독]-[좋아요]는 큰! 큰! 힘이 됩니다🙏\n김동현 이메일:memikim88@gmail.com\n김동현 인스타그램 : https://www.instagram.com/stungunkim \n\n하바스MMA 선수단 공식...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/K4-1MCSYWJY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/K4-1MCSYWJY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/K4-1MCSYWJY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "매미킴 TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-27T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "qfuDXvXtuL4",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UCjn-VbcIkAeXQKCmLJV8YwQ",
+        "title": "SNL 코리아 시즌5 | 기안84 편 하이라이트 | 패션왕 | 쿠팡플레이 | 쿠팡",
+        "description": "🚩SNL 코리아 풀버전은 쿠팡플레이에서!\nhttps://coupangplay.app.link/EH7EuGayEHb\n\n🚩이번 주 SNL 코리아 주요 코너는?\n- 태어난 김에 재벌 사위가 될 수 없다면...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qfuDXvXtuL4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qfuDXvXtuL4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qfuDXvXtuL4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쿠팡플레이 Coupang Play",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "ZsP9J7AkaQo",
+      "snippet": {
+        "publishedAt": "2024-05-01T00:00:00Z",
+        "channelId": "UC6YF0HkLWIshcQtbjbtjzGQ",
+        "title": "DARK MOON SPECIAL ALBUM 'MEMORABILIA' with ENHYPEN (엔하이픈) | Album Preview",
+        "description": "DARK MOON SPECIAL ALBUM 'MEMORABILIA'\n2024.05.13 18:00 KST\n\n[Credits]\nHYBE\n\nPhotography : LESS\n(Assistant of Photography : Lee Soo-jung, Jun Junseo, Kim Hyunwoo)\nProduction : Please\n(Assistant...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZsP9J7AkaQo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZsP9J7AkaQo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZsP9J7AkaQo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DARK MOON by HYBE",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-01T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "zr6x3TuITbk",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UC0wNauoCVIfU_xtWwrczFiA",
+        "title": "홍진경의 인생템 4가지 김나영의 템템템에서 공개합니다!",
+        "description": "#김나영의템템템\n두 번째 게스트는 바로바로 공부왕찐천재의 홍진경 언니에요🖤 진경언니가 찐 애정하는 생활 찐템들 같이 이야기 해봤어요🫶🏻...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zr6x3TuITbk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zr6x3TuITbk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zr6x3TuITbk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "김나영의 nofilterTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "78fQeeEcWMQ",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCooVYzDxdwTtGYAkcPmOgOw",
+        "title": "How to get a FREE HYPERCHARGE SKIN!",
+        "description": "You WILL get a Hypercharge skin for FREE when you collect 1250 Monster Eggs with your club in the #Godzilla Egg Smashers event! 🏢🦎\n\nHere's a MONSTROUS WALL OF TEXT with all the event...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/78fQeeEcWMQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/78fQeeEcWMQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/78fQeeEcWMQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Brawl Stars",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "46dquyaoe_c",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+        "title": "RIIZE 라이즈 'One Kiss' MV",
+        "description": "RIIZE's 1st mini album \"RIIZING\" B-sides are out! \nListen and download on your favorite platform: https://RIIZE.lnk.to/RIIZING \n\n🎶 'Impossible' MV https://youtu.be/Ey53EQhkLY8\n🎤 '9 Days'...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/46dquyaoe_c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/46dquyaoe_c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/46dquyaoe_c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SMTOWN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "iNOg-TrQ7WE",
+      "snippet": {
+        "publishedAt": "2024-04-30T00:00:00Z",
+        "channelId": "UC9w-h_ciMmX64TcLRcb1xPg",
+        "title": "[9화예고 full] 이번엔 2009년! 변우석과 얽히지 않기 위해 필사적으로 피하는 김혜윤🙀?! #선재업고튀어 EP.9",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f\n\n타임슬립 구원 로맨스\n#선재업고튀어\n[월화] 저녁 8:50ㅣtvN\n\n#LovelyRunner #변우석 #김혜윤\n#tvN #tvN에서...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iNOg-TrQ7WE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iNOg-TrQ7WE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iNOg-TrQ7WE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN drama",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-30T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "PNMjaNszvZQ",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "LALALI",
+        "description": "Provided to YouTube by PLEDIS Entertainment\n\nLALALI · SEVENTEEN\n\nSEVENTEEN BEST ALBUM ‘17 IS RIGHT HERE’\n\n℗ PLEDIS Entertainment\n\nReleased on: 2024-04-29\n\nAuto-generated by YouTube.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PNMjaNszvZQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PNMjaNszvZQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PNMjaNszvZQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "IL93PtUSkPs",
+      "snippet": {
+        "publishedAt": "2024-04-26T00:00:00Z",
+        "channelId": "UCI2T1_bAtgnKKzfhw3Qib9w",
+        "title": "Bbangbbang’s Couple Insta Account ~!",
+        "description": "기획/대본: 이주용, 장예빈\n애니메이션: 이주용, 허영현, 하현준, 김민석, 황보현정, 윤준식\n배경/3D: 추헌주, 강민주\n도움: 김혜린, 이윤도\n\nEnding...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IL93PtUSkPs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IL93PtUSkPs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IL93PtUSkPs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "빵빵이의 일상",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-26T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "FtMxkDh9dQg",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UCjHn_Os5NoCXZyoXzuKth9w",
+        "title": "착한 재벌?? 생각보다 훨씬 강력한 기업, 오뚜기 이야기 / 소비더머니",
+        "description": "1969년 故함태호 창업주가 세운 기업 오뚜기는 선행으로 유명합니다.\n카레와 마요네스, 케찹, 라면, 만두, 기름, 즉석식품 등등..\n오뚜기가 다루지...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FtMxkDh9dQg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FtMxkDh9dQg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FtMxkDh9dQg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소비더머니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "wOqrJdezezg",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UC6KwCU8Y8Uw4h_Q0ptLZkqw",
+        "title": "[유료광고포함] 🍼 일주일동안 육아에 올인해봤습니다...이것이 애 키우는 재미?!!",
+        "description": "🎁마녀공장 어린이날 에디션 with 틴틴팅클 에디션🎁\n\n수익금의 일부는 아름다운재단을 통해 돌봄 공백 아동들을 위해 지역아동센터에 전달된다고...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wOqrJdezezg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wOqrJdezezg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wOqrJdezezg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "해쭈 [HAEJOO]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "44LmqrAa7eA",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UCTx3aCntDvkq-hGtOjKVSnQ",
+        "title": "Fried hamburgers with 1800g cheese block",
+        "description": "100,000 pieces of cheese skirt burger\n\n*This content is produced with the support of SPEAK (paid advertisement).\n\n🔥Special discount event for SPEAK🔥\n👉https://bit.ly/4d9eozH\n\n[Big cheese...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/44LmqrAa7eA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/44LmqrAa7eA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/44LmqrAa7eA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "먹어볼래TryToEat",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "SfPknI5XbRM",
+      "snippet": {
+        "publishedAt": "2024-04-27T00:00:00Z",
+        "channelId": "UCEHYQlrn01RoUMjC5ubcNHQ",
+        "title": "Back in Macedonia with my family!!! How were they doing?? + *A BIG SURPRISE for my brother*",
+        "description": "안녕하세요 나타샤입니다~ 여러분 이번에 영상 오래 기다려셨죠? \n저희 떨어져 있으니까 편집하기 생각보다 어렵네요ㅠㅠ 죄송합니다!!\n이번 영상도...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SfPknI5XbRM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SfPknI5XbRM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SfPknI5XbRM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NB couple엔비커플",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-27T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "m3QMe2Fn9k4",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UC26QQCGh66xFU_NjhYLwdQQ",
+        "title": "[먹방브이로그#95] 맛있는 거 많아서 즐거우세요?ㅎㅎ 즐거우시냐고요🤓 마라두루치기,카레통닭+신전떡볶이, 성심당 망고시루, 의성마늘핫도그+트러플치즈핫도그,까르보불닭,크붕이+크루키",
+        "description": "✅Mail:  DietJo@sandboxnetwork.net\n✅Insta:  www.instagram.com/ju.ynn\n\n☑️욕설, 허위사실, 싸움조장 댓글은 비공개 처리됩니다.\n.\n.\n00:00 [고기듬뿍 국물두루치기]...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m3QMe2Fn9k4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m3QMe2Fn9k4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m3QMe2Fn9k4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "살빼조DietJo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "1F-CU7vYqC0",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UCPaApoLkmPqxCeZF7gjoc3w",
+        "title": "Spring Cleaning Daily Vlog. Making New Slippers and Bedding. Unboxing New Pajamas.",
+        "description": "Hello everyone\nIn this video, I do a spring clean and decorate my place💐\nI love my new slippers and bedding that I made \nIt smells like lilac and the wind is gentle outside\nI hope you have...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1F-CU7vYqC0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1F-CU7vYqC0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1F-CU7vYqC0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "planD플랜디",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "xRwdShWue2I",
+      "snippet": {
+        "publishedAt": "2024-04-26T00:00:00Z",
+        "channelId": "UCNhofiqfw5nl-NeDJkXtPvw",
+        "title": "태계일주 멤버들의 벚꽃 날리는 일본 라이딩 여행 【규슈上】",
+        "description": "스리랑카 여행이 먼저였으나 일정상 일본 여행을 앞서 업로드합니다.\n양해 부탁드립니다.\n--------------------------------------\n카메라\n\nDJI Action4\nGopro12...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xRwdShWue2I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xRwdShWue2I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xRwdShWue2I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "빠니보틀 Pani Bottle",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-26T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "ifoogNJ3xcU",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCSrRZH9QT6li5PIAv0r_6QA",
+        "title": "🎨요즘, 이런 컬러 조합이 뜨는 이유❓️",
+        "description": "반가워요 여러분~\n봄여름이 되니 슬슬 컬러 많이 입지 않으신가요ㅎㅎ?\n그런데 컬러는 입고는 싶은데\n어떻게 입어야 되는지 엄두가 안 나시는...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ifoogNJ3xcU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ifoogNJ3xcU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ifoogNJ3xcU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Bora Claire (보라끌레르)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "Pv0iVoSZzN8",
+      "snippet": {
+        "publishedAt": "2024-04-27T00:00:00Z",
+        "channelId": "UCX6OQ3DkcsbYNE6H8uQQuVA",
+        "title": "10 Minutes To Escape Or This Room Explodes!",
+        "description": "I didn’t expect that to happen…\nThere’s no jumping through hoops (or plate glass windows) with T-Mobile. Customers can get Magenta Status from day one, including hotel discounts on select...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Pv0iVoSZzN8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Pv0iVoSZzN8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Pv0iVoSZzN8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MrBeast",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-27T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "jTCsUvlOPKk",
+      "snippet": {
+        "publishedAt": "2024-04-28T00:00:00Z",
+        "channelId": "UCtfriFvIe5gIe8wRWb8UTMg",
+        "title": "전직장 사수 찾아가서 찍은 진짜 중소인의 하루",
+        "description": "삼성전자,LG전자 그리고 데바전자",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jTCsUvlOPKk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jTCsUvlOPKk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jTCsUvlOPKk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "이과장",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-28T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "gm_cQ_lfcSI",
+      "snippet": {
+        "publishedAt": "2024-04-25T00:00:00Z",
+        "channelId": "UCIZ5rCTYJ0s16FgT7OetVEQ",
+        "title": "A boy with the best vocabularies among toddlers. (This video makes you feel happy)",
+        "description": "#Taeha #Taeyomi #lovtaeha\n\nhttps://www.hemeko.com\nANAZE, Hesul, Colure global online mall\n\nKiu's Instagram\n@kiu_design_\n\nApply for ruined hair contest\nvunulmoon@naver.com\nApply for hair bragging...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gm_cQ_lfcSI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gm_cQ_lfcSI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gm_cQ_lfcSI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "kiu기우쌤",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-25T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "ZYnf3phgvwY",
+      "snippet": {
+        "publishedAt": "2024-04-29T00:00:00Z",
+        "channelId": "UCfpaSruWW3S4dibonKXENjA",
+        "title": "Ate Steak and Pork Ribs in the Town of Williams in the American West and Surprised the Owner!",
+        "description": "각국어 번역 자막 제작 : \n컨텐츠 제작의 마무리는 컨텐츠플라이! 글로벌 진출을 위한 최고의 파트너,\nCONTENTSFLY에서 제작되었습니다.\nhttps://www.contentsf...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZYnf3phgvwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZYnf3phgvwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZYnf3phgvwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tzuyang쯔양",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-29T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "1jnXKWV5iTk",
+      "snippet": {
+        "publishedAt": "2024-04-26T00:00:00Z",
+        "channelId": "UCGX5sP4ehBkihHwt5bs5wvg",
+        "title": "찐따가 사랑할 때 (수강생 : 빠니보틀, 곽튜브, 뷰티풀너드)",
+        "description": "#피식대학 #사이버강의 #정재형 #뷰티풀너드 #빠니보틀 #곽튜브 #너드 #찐따 #오타쿠 #사랑 #연애 \n\n피식대학  https://www.instagram.com/psickuniv/\n이용주...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1jnXKWV5iTk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1jnXKWV5iTk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1jnXKWV5iTk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "피식대학Psick Univ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-26T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "SjiizDuxmK0",
+      "snippet": {
+        "publishedAt": "2024-04-25T00:00:00Z",
+        "channelId": "UCXEKwWflysXu312NmIP_dlw",
+        "title": "우리 친구 맞지?",
+        "description": "#코믹숏무비 #너덜트 #여사친\n남사친인 줄 알았으나 친구 이상의 감정을 가지고 있어 점점 친구를 잃어가는 한 여자의 푸념. 과연 이성 친구란...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SjiizDuxmK0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SjiizDuxmK0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SjiizDuxmK0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "너덜트",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-25T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "MvD6aCsK5S8",
+      "snippet": {
+        "publishedAt": "2024-04-27T00:00:00Z",
+        "channelId": "UCSQ55iSysqYErLRDC6ARi9w",
+        "title": "주세요",
+        "description": "티키틱 - 둥가둥가\n\n💯 TIKITIK\n감독, 작사, 작곡 / 이신혁@project_shhttps://www.youtube.com/@project_sh\nC-도 괜찮습니다 / 오세진\n조명 / 추추\n소품 / 은택 https://www...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MvD6aCsK5S8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MvD6aCsK5S8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MvD6aCsK5S8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "티키틱 TIKITIK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-27T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "XFVXMvoBhI0",
+      "snippet": {
+        "publishedAt": "2024-04-26T00:00:00Z",
+        "channelId": "UCyozK5OFN5lDrwim5wqQnLA",
+        "title": "LG DIOS Lightwave Oven (Final Ver.)",
+        "description": "Making MAIN DISHES with all-in-one lightwave oven!\n\n❗️Updates\nhttps://litt.ly/yonam\n\n📸Instagram\nhttps://www.instagram.com/yonamism/\n\n👶Ggul-tteok's Instagram\nhttps://www.instagram.com/127_...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XFVXMvoBhI0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XFVXMvoBhI0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XFVXMvoBhI0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "취미로 요리하는 남자 Yonam",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-26T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "8WiAa7A010k",
+      "snippet": {
+        "publishedAt": "2024-04-26T00:00:00Z",
+        "channelId": "UC8RgkxM4r-peMjEY-jI4Jzw",
+        "title": "내비게이션 끄고 가는 춘천 여행",
+        "description": "길치가 알려주는 경로를 따라 춘천 여행 해보았습니다\n \n#고수 #잠뜰 #수현 #덕개",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8WiAa7A010k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8WiAa7A010k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8WiAa7A010k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "고수 GOSU",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-26T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "GYLps1Hy1As",
+      "snippet": {
+        "publishedAt": "2024-04-24T00:00:00Z",
+        "channelId": "UCg-p3lQIqmhh7gHpyaOmOiQ",
+        "title": "British Highschoolers Reunite! You’re going to Korean Military Service!!",
+        "description": "All Korean men do Military Service, and over the years I've visited friends at their army bases, heard horror stories about how difficult boot camp is, and wondered what it would really be...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GYLps1Hy1As/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GYLps1Hy1As/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GYLps1Hy1As/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "영국남자 Korean Englishman",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-24T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "id": "V7KEUkcYkh4",
+      "snippet": {
+        "publishedAt": "2024-04-27T00:00:00Z",
+        "channelId": "UC5xLohcPE65Y-U62X6snmRQ",
+        "title": "Zico vs. Fat! A talk show where a rapper and a comedian provoke each other | Tailored Chat EP4 Zico",
+        "description": "#SAM MOON #ZICO #TalkShow #TailoredChat\n\n0:00 Healing Talk Show. TailoredChat\n0:22 Today's guest: ZICO\n1:54 Meet the Master of the Dance Challenges\n3:24 SPOT Challenge with Sam Moon\n3:53 How...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V7KEUkcYkh4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V7KEUkcYkh4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V7KEUkcYkh4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "빠더너스 BDNS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-27T00:00:00Z"
+      }
+    }
+  ]
+}
