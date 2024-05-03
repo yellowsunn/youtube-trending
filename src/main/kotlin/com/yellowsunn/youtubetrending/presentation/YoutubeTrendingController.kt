@@ -2,7 +2,8 @@ package com.yellowsunn.youtubetrending.presentation
 
 import com.yellowsunn.youtubetrending.application.YoutubeTrendingService
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeVideo
-import com.yellowsunn.youtubetrending.dto.YoutubeTrendingAllDto
+import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
+import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.GetMapping
@@ -18,11 +19,35 @@ class YoutubeTrendingController(
 
     @GetMapping("/")
     fun index(model: Model): String {
-        val trending: YoutubeTrendingAllDto = youtubeTrendingService.findAll()
+        val trending: YoutubeNowTrendingDto = youtubeTrendingService.findNow()
+        model.addAttribute("type", "now")
         model.addAttribute("topVideos", trending.videos.top())
         model.addAttribute("bottomVideos", trending.videos.bottom())
         model.addAttribute("recentlyVideos", trending.recentlyVideos)
         model.addAttribute("shorts", trending.shorts)
+
+        return "youtube-trending"
+    }
+
+    @GetMapping("/music")
+    fun music(model: Model): String {
+        val trending: YoutubeMusicTrendingDto = youtubeTrendingService.findMusic()
+        model.addAttribute("type", "music")
+        model.addAttribute("videos", trending.videos)
+
+        return "youtube-trending"
+    }
+
+    @GetMapping("/game")
+    fun game(model: Model): String {
+        model.addAttribute("type", "game")
+
+        return "youtube-trending"
+    }
+
+    @GetMapping("/movie")
+    fun movie(model: Model): String {
+        model.addAttribute("type", "movie")
 
         return "youtube-trending"
     }

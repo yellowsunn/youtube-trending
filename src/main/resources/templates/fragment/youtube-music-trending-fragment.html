@@ -1,0 +1,332 @@
+<ytd-two-column-browse-results-renderer th:fragment="music-trending" class="style-scope ytd-browse grid grid-6-columns"
+                                        page-subtype=trending>
+  <div id=primary class="style-scope ytd-two-column-browse-results-renderer">
+    <ytd-section-list-renderer class="style-scope ytd-two-column-browse-results-renderer" page-subtype=trending>
+      <div id=header-container class="style-scope ytd-section-list-renderer">
+        <div id=header class="style-scope ytd-section-list-renderer"></div>
+        <div id=sub-menu class="style-scope ytd-section-list-renderer"></div>
+      </div>
+      <div id=contents class="style-scope ytd-section-list-renderer">
+        <ytd-item-section-renderer class="style-scope ytd-section-list-renderer" page-subtype=trending
+                                   header-style>
+          <div id=header class="style-scope ytd-item-section-renderer"></div>
+          <div id=spinner-container class="style-scope ytd-item-section-renderer">
+            <tp-yt-paper-spinner-lite class="style-scope ytd-item-section-renderer sf-hidden"
+                                      aria-hidden=true></tp-yt-paper-spinner-lite>
+          </div>
+          <div id=contents class="style-scope ytd-item-section-renderer">
+            <ytd-shelf-renderer class="style-scope ytd-item-section-renderer" modern-typography thumbnail-style>
+              <div id=dismissible class="style-scope ytd-shelf-renderer">
+                <div class="grid-subheader style-scope ytd-shelf-renderer">
+                  <div id=title-container class="style-scope ytd-shelf-renderer sf-hidden" hidden>
+                    <h2 class="style-scope ytd-shelf-renderer sf-hidden">
+
+
+                      <dom-if class="style-scope ytd-shelf-renderer sf-hidden">
+                        <template></template>
+                      </dom-if>
+                      <dom-if class="style-scope ytd-shelf-renderer sf-hidden">
+                        <template></template>
+                      </dom-if>
+                      <ytd-badge-supported-renderer id=featured-badge
+                                                    class="style-scope ytd-shelf-renderer sf-hidden"
+                                                    system-icons hidden disable-upgrade>
+                        <dom-repeat id=repeat as=badge
+                                    class="style-scope ytd-badge-supported-renderer sf-hidden">
+                          <template></template>
+                        </dom-repeat>
+                      </ytd-badge-supported-renderer>
+
+
+                    </h2>
+
+
+                  </div>
+                  <yt-formatted-string id=subtitle class="can-be-empty style-scope ytd-shelf-renderer sf-hidden"
+                                       is-empty='function(){var e=wa.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var h,l=(null!=(h=a.is)?h:a.tagName).toLowerCase();GD(l,b,"PROPERTY_ACCESS_CALL_EXTERNAL");var m;h=null==(m=null!=c?c:d[b])?void 0:m.call.apply(m,[d].concat(ha(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return h}'></yt-formatted-string>
+                </div>
+                <div id=contents class="style-scope ytd-shelf-renderer">
+                  <ytd-expanded-shelf-contents-renderer class="style-scope ytd-shelf-renderer">
+                    <div id=grid-container class="style-scope ytd-expanded-shelf-contents-renderer">
+                      <!-- videos -->
+                      <ytd-video-renderer th:each="video : ${videos}"
+                                          class="style-scope ytd-expanded-shelf-contents-renderer"
+                                          bigger-thumbs-style=BIG lockup=true inline-title-icon>
+                        <div id=dismissible class="style-scope ytd-video-renderer"
+                             th:onclick="|location.href='@{https://www.youtube.com/watch(v=${video.videoId})}'|">
+                          <ytd-thumbnail use-hovered-property class="style-scope ytd-video-renderer" size=medium
+                                         loaded><a id=thumbnail
+                                                   class="yt-simple-endpoint inline-block style-scope ytd-thumbnail"
+                                                   aria-hidden=true tabindex=-1 rel=null
+                                                   th:href="@{https://www.youtube.com/watch(v=${video.videoId})}">
+                            <yt-image alt ftl-eligible notify-on-loaded notify-on-unloaded
+                                      class="style-scope ytd-thumbnail"><img alt
+                                                                             style=background-color:transparent
+                                                                             class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
+                                                                             th:src="${video.thumbnail}">
+                            </yt-image>
+
+                            <div id=overlays class="style-scope ytd-thumbnail">
+                              <ytd-thumbnail-overlay-time-status-renderer class="style-scope ytd-thumbnail"
+                                                                          hide-time-status
+                                                                          overlay-style=DEFAULT>
+                                <ytd-badge-supported-renderer is-thumbnail-badge
+                                                              class="style-scope ytd-thumbnail-overlay-time-status-renderer"
+                                                              system-icons>
+                                  <dom-repeat id=repeat as=badge
+                                              class="style-scope ytd-badge-supported-renderer sf-hidden">
+                                    <template></template>
+                                  </dom-repeat>
+                                </ytd-badge-supported-renderer>
+                                <div
+                                    class="thumbnail-overlay-badge-shape style-scope ytd-thumbnail-overlay-time-status-renderer">
+                                  <badge-shape
+                                      class="badge-shape-wiz badge-shape-wiz--default badge-shape-wiz--overlay badge-shape-wiz--thumbnail-badge"
+                                      role=img>
+                                    <div class=badge-shape-wiz__text th:text="${video.lengthText}">00:00</div>
+                                  </badge-shape>
+                                </div>
+                                <div id=time-status
+                                     class="style-scope ytd-thumbnail-overlay-time-status-renderer sf-hidden"
+                                     hidden></div>
+                              </ytd-thumbnail-overlay-time-status-renderer>
+                              <ytd-thumbnail-overlay-now-playing-renderer class="style-scope ytd-thumbnail">
+                                        <span id=overlay-text
+                                              class="style-scope ytd-thumbnail-overlay-now-playing-renderer">지금 재생 중</span>
+                                <ytd-thumbnail-overlay-equalizer
+                                    class="style-scope ytd-thumbnail-overlay-now-playing-renderer">
+                                  <svg xmlns=http://www.w3.org/2000/svg id=equalizer viewBox="0 0 55 95"
+                                       class="style-scope ytd-thumbnail-overlay-equalizer">
+                                    <g class="style-scope ytd-thumbnail-overlay-equalizer">
+                                      <rect class="bar style-scope ytd-thumbnail-overlay-equalizer" x=0></rect>
+                                      <rect class="bar style-scope ytd-thumbnail-overlay-equalizer" x=20></rect>
+                                      <rect class="bar style-scope ytd-thumbnail-overlay-equalizer" x=40></rect>
+                                    </g>
+                                  </svg>
+                                </ytd-thumbnail-overlay-equalizer>
+                              </ytd-thumbnail-overlay-now-playing-renderer>
+                            </div>
+                            <div id=mouseover-overlay class="style-scope ytd-thumbnail"></div>
+                            <div id=hover-overlays class="style-scope ytd-thumbnail"></div>
+                          </a>
+                          </ytd-thumbnail>
+                          <div class="text-wrapper style-scope ytd-video-renderer">
+                            <div id=meta class="style-scope ytd-video-renderer">
+                              <div id=title-wrapper class="style-scope ytd-video-renderer">
+                                <h3 class="title-and-badge style-scope ytd-video-renderer">
+                                  <ytd-badge-supported-renderer collection-truncate
+                                                                class="style-scope ytd-video-renderer sf-hidden"
+                                                                disable-upgrade hidden>
+                                  </ytd-badge-supported-renderer>
+                                  <a id=video-title class="yt-simple-endpoint style-scope ytd-video-renderer"
+                                     th:title="${video.title}"
+                                     th:href="@{https://www.youtube.com/watch(v=${video.videoId})}">
+                                    <yt-icon id=inline-title-icon
+                                             class="style-scope ytd-video-renderer sf-hidden" hidden></yt-icon>
+                                    <yt-formatted-string class="style-scope ytd-video-renderer"
+                                                         th:text="${video.title}">
+                                    </yt-formatted-string>
+                                  </a>
+                                </h3>
+                                <div id=menu class="style-scope ytd-video-renderer">
+                                  <ytd-menu-renderer class="style-scope ytd-video-renderer" safe-area>
+                                    <div id=top-level-buttons-computed
+                                         class="top-level-buttons style-scope ytd-menu-renderer"></div>
+                                    <div id=flexible-item-buttons class="style-scope ytd-menu-renderer"></div>
+                                    <yt-icon-button id=button
+                                                    class="dropdown-trigger style-scope ytd-menu-renderer"
+                                                    style-target=button role=button>
+                                      <button id=button class="style-scope yt-icon-button" aria-label="작업 메뉴">
+                                        <yt-icon class="style-scope ytd-menu-renderer">
+                                          <yt-icon-shape class="style-scope yt-icon">
+                                            <icon-shape class=yt-spec-icon-shape>
+                                              <div style=width:100%;height:100%;display:block;fill:currentcolor>
+                                                <svg xmlns=http://www.w3.org/2000/svg
+                                                     enable-background="new 0 0 24 24" height=24
+                                                     viewBox="0 0 24 24" width=24 focusable=false
+                                                     style=pointer-events:none;display:inherit;width:100%;height:100%>
+                                                  <path
+                                                      d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path>
+                                                </svg>
+                                              </div>
+                                            </icon-shape>
+                                          </yt-icon-shape>
+                                        </yt-icon>
+                                      </button>
+                                      <yt-interaction id=interaction
+                                                      class="circular style-scope yt-icon-button">
+                                        <div class="stroke style-scope yt-interaction"></div>
+                                        <div class="fill style-scope yt-interaction"></div>
+                                      </yt-interaction>
+                                    </yt-icon-button>
+                                    <yt-button-shape id=button-shape version=modern
+                                                     class="style-scope ytd-menu-renderer sf-hidden"
+                                                     disable-upgrade hidden></yt-button-shape>
+                                  </ytd-menu-renderer>
+                                </div>
+                              </div>
+                              <ytd-video-meta-block class="style-scope ytd-video-renderer" amsterdam-post-mvp>
+                                <div id=metadata class="style-scope ytd-video-meta-block">
+                                  <div id=byline-container class="style-scope ytd-video-meta-block">
+                                    <ytd-channel-name id=channel-name class="style-scope ytd-video-meta-block">
+                                      <div id=container class="style-scope ytd-channel-name">
+                                        <div id=text-container class="style-scope ytd-channel-name">
+                                          <yt-formatted-string id=text link-inherit-color respect-lang-dir
+                                                               th:title=${video.channelTitle}
+                                                               class="style-scope ytd-channel-name complex-string"
+                                                               ellipsis-truncate ellipsis-truncate-styling
+                                                               dir=auto has-link-only_ style=text-align:left><a
+                                              class="yt-simple-endpoint style-scope yt-formatted-string"
+                                              spellcheck=false
+                                              th:href="@{https://www.youtube.com/{channelHandle}(channelHandle=${video.channelHandle})}"
+                                              th:text=${video.channelTitle}></a></yt-formatted-string>
+                                        </div>
+                                        <tp-yt-paper-tooltip fit-to-visible-bounds
+                                                             class="style-scope ytd-channel-name" role=tooltip
+                                                             tabindex=-1>
+                                          <div id=tooltip
+                                               class="hidden style-scope tp-yt-paper-tooltip sf-hidden"
+                                               style-target=tooltip>
+
+                                            HYBE LABELS
+
+                                          </div>
+                                        </tp-yt-paper-tooltip>
+                                      </div>
+                                      <ytd-badge-supported-renderer class="style-scope ytd-channel-name"
+                                                                    system-icons>
+                                        <div
+                                            class="badge badge-style-type-verified style-scope ytd-badge-supported-renderer"
+                                            aria-label=인증됨 role=img>
+                                          <yt-icon size=16 class="style-scope ytd-badge-supported-renderer">
+                                            <yt-icon-shape class="style-scope yt-icon">
+                                              <icon-shape class=yt-spec-icon-shape>
+                                                <div
+                                                    style=width:100%;height:100%;display:block;fill:currentcolor>
+                                                  <svg xmlns=http://www.w3.org/2000/svg height=24
+                                                       viewBox="0 0 24 24" width=24 focusable=false
+                                                       style=pointer-events:none;display:inherit;width:100%;height:100%>
+                                                    <path
+                                                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z"></path>
+                                                  </svg>
+                                                </div>
+                                              </icon-shape>
+                                            </yt-icon-shape>
+                                          </yt-icon>
+                                          <p class="style-scope ytd-badge-supported-renderer"></p>
+                                          <tp-yt-paper-tooltip position=top
+                                                               class="style-scope ytd-badge-supported-renderer"
+                                                               role=tooltip tabindex=-1>
+                                            <div id=tooltip
+                                                 class="hidden style-scope tp-yt-paper-tooltip sf-hidden"
+                                                 style-target=tooltip>
+                                              인증됨
+                                            </div>
+                                          </tp-yt-paper-tooltip>
+                                        </div>
+                                        <dom-repeat id=repeat as=badge
+                                                    class="style-scope ytd-badge-supported-renderer sf-hidden">
+                                          <template></template>
+                                        </dom-repeat>
+                                      </ytd-badge-supported-renderer>
+                                    </ytd-channel-name>
+                                    <div id=separator class="style-scope ytd-video-meta-block sf-hidden">•</div>
+                                    <yt-formatted-string id=video-info
+                                                         class="style-scope ytd-video-meta-block sf-hidden"
+                                                         is-empty='function(){var e=wa.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var h,l=(null!=(h=a.is)?h:a.tagName).toLowerCase();GD(l,b,"PROPERTY_ACCESS_CALL_EXTERNAL");var m;h=null==(m=null!=c?c:d[b])?void 0:m.call.apply(m,[d].concat(ha(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return h}'
+                                                         hidden></yt-formatted-string>
+                                  </div>
+                                  <div id=metadata-line class="style-scope ytd-video-meta-block">
+
+                                    <ytd-badge-supported-renderer
+                                        class="inline-metadata-badge style-scope ytd-video-meta-block sf-hidden"
+                                        hidden system-icons>
+                                      <dom-repeat id=repeat as=badge
+                                                  class="style-scope ytd-badge-supported-renderer sf-hidden">
+                                        <template></template>
+                                      </dom-repeat>
+                                    </ytd-badge-supported-renderer>
+                                    <div id=separator class="style-scope ytd-video-meta-block sf-hidden" hidden>
+                                      •
+                                    </div>
+
+                                    <span
+                                        class="inline-metadata-item style-scope ytd-video-meta-block"
+                                        th:text="${video.viewCountText()}">조회수 0회</span>
+
+                                    <span
+                                        class="inline-metadata-item style-scope ytd-video-meta-block"
+                                        th:text="${video.publishedTimeText}">X일 전</span>
+                                    <dom-repeat strip-whitespace
+                                                class="style-scope ytd-video-meta-block sf-hidden">
+                                      <template></template>
+                                    </dom-repeat>
+                                  </div>
+                                </div>
+                                <div id=additional-metadata-line class="style-scope ytd-video-meta-block">
+                                  <dom-repeat class="style-scope ytd-video-meta-block sf-hidden">
+                                    <template></template>
+                                  </dom-repeat>
+                                </div>
+                              </ytd-video-meta-block>
+                            </div>
+                            <div id=channel-info class="style-scope ytd-video-renderer sf-hidden" hidden>
+
+                              <ytd-channel-name id=channel-name
+                                                class="long-byline style-scope ytd-video-renderer sf-hidden"
+                                                wrap-text=true>
+                                <ytd-badge-supported-renderer class="style-scope ytd-channel-name sf-hidden"
+                                                              system-icons>
+                                  <dom-repeat id=repeat as=badge
+                                              class="style-scope ytd-badge-supported-renderer sf-hidden">
+                                    <template></template>
+                                  </dom-repeat>
+                                </ytd-badge-supported-renderer>
+                              </ytd-channel-name>
+                            </div>
+                            <yt-formatted-string id=description-text class="style-scope ytd-video-renderer"
+                                                 th:text="${video.description}">
+                              유튜브 설명
+                            </yt-formatted-string>
+                            <dom-repeat class="style-scope ytd-video-renderer sf-hidden" hidden>
+                              <template></template>
+                            </dom-repeat>
+                            <ytd-badge-supported-renderer id=badges
+                                                          class="style-scope ytd-video-renderer sf-hidden"
+                                                          disable-upgrade hidden>
+                            </ytd-badge-supported-renderer>
+                            <div id=expandable-metadata class="style-scope ytd-video-renderer"></div>
+                            <div id=buttons class="style-scope ytd-video-renderer"></div>
+                          </div>
+                        </div>
+                        <div id=dismissed class="style-scope ytd-video-renderer sf-hidden"></div>
+                        <yt-interaction id=interaction class="extended style-scope ytd-video-renderer">
+                          <div class="stroke style-scope yt-interaction"></div>
+                          <div class="fill style-scope yt-interaction"></div>
+                        </yt-interaction>
+                      </ytd-video-renderer>
+                    </div>
+                    <yt-formatted-string aria-role=button
+                                         class="style-scope ytd-expanded-shelf-contents-renderer sf-hidden"
+                                         is-empty='function(){var e=wa.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var h,l=(null!=(h=a.is)?h:a.tagName).toLowerCase();GD(l,b,"PROPERTY_ACCESS_CALL_EXTERNAL");var m;h=null==(m=null!=c?c:d[b])?void 0:m.call.apply(m,[d].concat(ha(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return h}'
+                                         hidden></yt-formatted-string>
+                    <a class="yt-simple-endpoint style-scope ytd-expanded-shelf-contents-renderer sf-hidden"
+                       hidden>
+
+                    </a>
+                  </ytd-expanded-shelf-contents-renderer>
+                </div>
+              </div>
+              <div id=dismissed class="style-scope ytd-shelf-renderer sf-hidden"></div>
+            </ytd-shelf-renderer>
+          </div>
+          <div id=continuations class="style-scope ytd-item-section-renderer"></div>
+        </ytd-item-section-renderer>
+      </div>
+      <div id=action-button class="style-scope ytd-section-list-renderer sf-hidden"></div>
+      <div id=continuations class="style-scope ytd-section-list-renderer"></div>
+    </ytd-section-list-renderer>
+  </div>
+  <div id=secondary class="style-scope ytd-two-column-browse-results-renderer">
+  </div>
+</ytd-two-column-browse-results-renderer>

@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeShort
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeVideo
 
-data class YoutubeTrendingHttpResponse(
+data class YoutubeNowTrendingHttpResponse(
     val data: List<YoutubeData>,
 ) {
     @JsonTypeInfo(
@@ -41,7 +41,7 @@ data class YoutubeTrendingHttpResponse(
                 title = title,
                 channelTitle = channelTitle,
                 channelId = channelId,
-                channelHandle = channelHandle ?: "",
+                channelHandle = channelHandle,
                 channelThumbnail = channelThumbnail.lastOrNull()?.url ?: "",
                 description = description,
                 viewCount = viewCount,
@@ -106,7 +106,7 @@ data class YoutubeTrendingHttpResponse(
                     title = title,
                     channelTitle = channelTitle ?: "",
                     channelId = channelId ?: "",
-                    channelHandle = channelHandle ?: "",
+                    channelHandle = channelHandle,
                     channelThumbnail = channelThumbnail?.lastOrNull()?.url ?: "",
                     description = description ?: "",
                     viewCount = viewCount,

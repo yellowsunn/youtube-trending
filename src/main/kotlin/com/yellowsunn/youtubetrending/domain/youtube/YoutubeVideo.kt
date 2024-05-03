@@ -5,7 +5,7 @@ data class YoutubeVideo(
     val title: String,
     val channelTitle: String,
     val channelId: String,
-    val channelHandle: String,
+    val channelHandle: String?,
     val channelThumbnail: String,
     val description: String,
     val viewCount: Long,
