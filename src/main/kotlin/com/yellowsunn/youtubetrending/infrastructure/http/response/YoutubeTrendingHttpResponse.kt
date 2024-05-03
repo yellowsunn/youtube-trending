@@ -42,12 +42,12 @@ data class YoutubeTrendingHttpResponse(
                 channelTitle = channelTitle,
                 channelId = channelId,
                 channelHandle = channelHandle ?: "",
-                channelThumbnail = channelThumbnail.firstOrNull()?.url ?: "",
+                channelThumbnail = channelThumbnail.lastOrNull()?.url ?: "",
                 description = description,
                 viewCount = viewCount,
                 publishedTimeText = publishedTimeText,
                 lengthText = lengthText,
-                thumbnail = thumbnail.firstOrNull()?.url ?: "",
+                thumbnail = thumbnail.lastOrNull()?.url ?: "",
             )
         }
     }
@@ -75,7 +75,7 @@ data class YoutubeTrendingHttpResponse(
                     videoId = it.videoId,
                     title = it.title,
                     viewCountText = it.viewCountText,
-                    thumbnail = it.thumbnail.firstOrNull()?.url ?: "",
+                    thumbnail = it.thumbnail.lastOrNull()?.url ?: "",
                 )
             }
         }
