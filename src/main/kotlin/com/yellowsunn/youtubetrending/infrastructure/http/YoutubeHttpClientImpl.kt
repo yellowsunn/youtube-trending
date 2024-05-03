@@ -5,7 +5,7 @@ import com.yellowsunn.youtubetrending.dto.YoutubeTrendingAllDto
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeTrendingHttpResponse
 import org.springframework.stereotype.Component
 
-//@Component
+@Component
 class YoutubeHttpClientImpl(
     private val youtubeFeignClient: YoutubeFeignClient,
 ) : YoutubeHttpClient {
