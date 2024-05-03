@@ -11,5 +11,9 @@ spring:
             read-timeout: 5000
             logger-level: basic
 
+logging:
+  level:
+    com.yellowsunn.youtubetrending.infrastructure.http: debug
+
 rapid-api:
   key: aa4a462ad2mshfd8ac8309875080p1d4f24jsn7613aa4e11c9

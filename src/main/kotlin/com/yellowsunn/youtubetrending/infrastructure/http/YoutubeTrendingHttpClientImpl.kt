@@ -7,7 +7,7 @@ import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMusicT
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeNowTrendingHttpResponse
 import org.springframework.stereotype.Component
 
-//@Component
+@Component
 class YoutubeTrendingHttpClientImpl(
     private val youtubeTrendingFeignClient: YoutubeTrendingFeignClient,
 ) : YoutubeTrendingHttpClient {
@@ -22,6 +22,10 @@ class YoutubeTrendingHttpClientImpl(
     }
 
     override fun findMusicTrending(): YoutubeMusicTrendingDto {
-        TODO("Not yet implemented")
+        val trending: YoutubeMusicTrendingHttpResponse = youtubeTrendingFeignClient.getMusicTrending()
+
+        return YoutubeMusicTrendingDto(
+            videos = trending.toTrendingVideos(),
+        )
     }
 }

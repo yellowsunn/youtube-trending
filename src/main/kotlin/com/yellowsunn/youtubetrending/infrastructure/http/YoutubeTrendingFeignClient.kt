@@ -8,16 +8,14 @@ import org.springframework.web.bind.annotation.GetMapping
 @FeignClient(name = "youtube-api")
 interface YoutubeTrendingFeignClient {
     @GetMapping(
-        "/trending",
+        "/trending?type=now&geo=KR&lang=ko",
         headers = ["X-RapidAPI-Host=yt-api.p.rapidapi.com", "X-RapidAPI-Key=\${rapid-api.key}"],
-        params = ["type=now", "geo=KR", "lang=ko"],
     )
     fun getNowTrending(): YoutubeNowTrendingHttpResponse
 
     @GetMapping(
-        "/trending",
+        "/trending?type=music&geo=KR&lang=ko",
         headers = ["X-RapidAPI-Host=yt-api.p.rapidapi.com", "X-RapidAPI-Key=\${rapid-api.key}"],
-        params = ["type=music", "geo=KR", "lang=ko"],
     )
     fun getMusicTrending(): YoutubeMusicTrendingHttpResponse
 }

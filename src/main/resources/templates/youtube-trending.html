@@ -10882,7 +10882,7 @@ ytd-two-column-browse-results-renderer {
           <template></template>
         </dom-if>
         <div th:if="${type == 'now'}">
-          <div th:replace="~{fragment/youtube-now-trending-content :: now-trending}"></div>
+          <div th:replace="~{fragment/youtube-now-trending-fragment :: now-trending}"></div>
         </div>
         <div th:if="${type == 'music'}">
           <div th:replace="~{fragment/youtube-music-trending-fragment :: music-trending}"></div>
