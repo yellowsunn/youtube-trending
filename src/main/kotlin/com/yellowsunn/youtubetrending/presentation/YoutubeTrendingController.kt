@@ -22,6 +22,7 @@ class YoutubeTrendingController(
         model.addAttribute("topVideos", trending.videos.top())
         model.addAttribute("bottomVideos", trending.videos.bottom())
         model.addAttribute("recentlyVideos", trending.recentlyVideos)
+        model.addAttribute("shorts", trending.shorts)
 
         return "youtube-trending"
     }
