@@ -178,7 +178,7 @@
                                                                dir=auto has-link-only_ style=text-align:left><a
                                               class="yt-simple-endpoint style-scope yt-formatted-string"
                                               spellcheck=false
-                                              th:href="@{https://www.youtube.com/{channelHandle}(channelHandle=${video.channelHandle})}"
+                                              th:href="@{https://www.youtube.com/{channelPath}(channelPath=${video.channelPath()})}"
                                               th:text=${video.channelTitle}></a></yt-formatted-string>
                                         </div>
                                         <tp-yt-paper-tooltip fit-to-visible-bounds

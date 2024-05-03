@@ -32,4 +32,11 @@ data class YoutubeVideo(
 
         return String.format("조회수 %.1f억회", viewCount / 100_000_000.0)
     }
+
+    fun channelPath(): String {
+        if (channelHandle.isNullOrBlank()) {
+            return "channel/$channelId"
+        }
+        return channelHandle
+    }
 }
