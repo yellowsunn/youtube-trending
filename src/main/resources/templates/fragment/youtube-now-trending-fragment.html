@@ -856,7 +856,7 @@
                   <ytd-expanded-shelf-contents-renderer class="style-scope ytd-shelf-renderer">
                     <div id=grid-container class="style-scope ytd-expanded-shelf-contents-renderer">
                       <!-- recentlyVideos -->
-                      <ytd-video-renderer th:each="video: ${recentlyVideos}"
+                      <ytd-video-renderer th:each="video, i: ${recentlyVideos}"
                                           class="style-scope ytd-expanded-shelf-contents-renderer"
                                           bigger-thumbs-style=BIG lockup=true inline-title-icon>
                         <div id=dismissible class="style-scope ytd-video-renderer"
@@ -870,6 +870,9 @@
                                       class="style-scope ytd-thumbnail"><img alt
                                                                              style=background-color:transparent
                                                                              class="yt-core-image yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded"
+                                                                             th:classappend="|yt-thumbnail-r${i.index}|"
+                                                                             th:attr="onmouseover=|mouseOverThumbnail('yt-thumbnail-r${i.index}', '${video.richThumbnail}')|,
+                                                                                      onmouseleave=|mouseLeaveThumbnail('yt-thumbnail-r${i.index}', '${video.thumbnail}')|"
                                                                              th:src="${video.thumbnail}">
                             </yt-image>
 
