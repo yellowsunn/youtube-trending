@@ -1,9 +1,8 @@
 package com.yellowsunn.youtubetrending.domain.youtube
 
-enum class YoutubeTrendingType(
+enum class YoutubeOtherTrendingType(
     val type: String,
 ) {
-    NOW("now"),
     MUSIC("music"),
     GAMES("games"),
     MOVIES("movies"),

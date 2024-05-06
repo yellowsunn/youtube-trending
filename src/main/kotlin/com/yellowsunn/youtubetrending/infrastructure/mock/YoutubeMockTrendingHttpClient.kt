@@ -4,14 +4,15 @@ import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
+import com.yellowsunn.youtubetrending.domain.youtube.YoutubeOtherTrendingType
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
-import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingType
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeOtherTrendingDto
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeTrendingHttpResponse
 import org.springframework.core.io.ClassPathResource
+import org.springframework.stereotype.Component
 
-// @Component
+//@Component
 class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
     private val objectMapper =
         jacksonObjectMapper()
@@ -31,13 +32,12 @@ class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
         )
     }
 
-    override fun findOtherTrending(trendingType: YoutubeTrendingType): YoutubeOtherTrendingDto {
+    override fun findOtherTrending(trendingType: YoutubeOtherTrendingType): YoutubeOtherTrendingDto {
         val resource =
             when (trendingType) {
-                YoutubeTrendingType.MUSIC -> ClassPathResource("json/youtube-music-trending-sample.json")
-                YoutubeTrendingType.GAMES -> ClassPathResource("json/youtube-game-trending-sample.json")
-                YoutubeTrendingType.MOVIES -> ClassPathResource("json/youtube-movie-trending-sample.json")
-                YoutubeTrendingType.NOW -> throw IllegalArgumentException("유효한 타입이 아닙니다.")
+                YoutubeOtherTrendingType.MUSIC -> ClassPathResource("json/youtube-music-trending-sample.json")
+                YoutubeOtherTrendingType.GAMES -> ClassPathResource("json/youtube-game-trending-sample.json")
+                YoutubeOtherTrendingType.MOVIES -> ClassPathResource("json/youtube-movie-trending-sample.json")
             }
 
         val mockHttpResponse = objectMapper.readValue<YoutubeTrendingHttpResponse>(resource.inputStream)

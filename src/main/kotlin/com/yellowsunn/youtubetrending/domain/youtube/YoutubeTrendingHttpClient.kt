@@ -6,5 +6,5 @@ import com.yellowsunn.youtubetrending.dto.YoutubeOtherTrendingDto
 interface YoutubeTrendingHttpClient {
     fun findNowTrending(): YoutubeNowTrendingDto
 
-    fun findOtherTrending(trendingType: YoutubeTrendingType): YoutubeOtherTrendingDto
+    fun findOtherTrending(trendingType: YoutubeOtherTrendingType): YoutubeOtherTrendingDto
 }
