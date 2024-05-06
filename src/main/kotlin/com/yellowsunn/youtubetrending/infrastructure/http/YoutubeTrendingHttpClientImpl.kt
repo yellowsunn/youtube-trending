@@ -5,11 +5,13 @@ import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeGameTrendingHttpResponse
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMovieTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMusicTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeNowTrendingHttpResponse
 import org.springframework.stereotype.Component
 
-//@Component
+@Component
 class YoutubeTrendingHttpClientImpl(
     private val youtubeTrendingFeignClient: YoutubeTrendingFeignClient,
 ) : YoutubeTrendingHttpClient {
@@ -32,10 +34,18 @@ class YoutubeTrendingHttpClientImpl(
     }
 
     override fun findGameTrending(): YoutubeGameTrendingDto {
-        TODO("Not yet implemented")
+        val trending: YoutubeGameTrendingHttpResponse = youtubeTrendingFeignClient.getGameTrending()
+
+        return YoutubeGameTrendingDto(
+            videos = trending.toTrendingVideos(),
+        )
     }
 
     override fun findMovieTrending(): YoutubeMovieTrendingDto {
-        TODO("Not yet implemented")
+        val trending: YoutubeMovieTrendingHttpResponse = youtubeTrendingFeignClient.getMovieTrending()
+
+        return YoutubeMovieTrendingDto(
+            videos = trending.toTrendingVideos(),
+        )
     }
 }
