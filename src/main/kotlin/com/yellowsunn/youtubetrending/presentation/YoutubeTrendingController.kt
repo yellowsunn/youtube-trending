@@ -2,10 +2,8 @@ package com.yellowsunn.youtubetrending.presentation
 
 import com.yellowsunn.youtubetrending.application.YoutubeTrendingService
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeVideo
-import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
-import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
-import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
+import com.yellowsunn.youtubetrending.dto.YoutubeOtherTrendingDto
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.GetMapping
@@ -33,7 +31,7 @@ class YoutubeTrendingController(
 
     @GetMapping("/music")
     fun music(model: Model): String {
-        val trending: YoutubeMusicTrendingDto = youtubeTrendingService.findMusic()
+        val trending: YoutubeOtherTrendingDto = youtubeTrendingService.findMusic()
         model.addAttribute("type", "music")
         model.addAttribute("videos", trending.videos)
 
@@ -42,7 +40,7 @@ class YoutubeTrendingController(
 
     @GetMapping("/game")
     fun game(model: Model): String {
-        val trending: YoutubeGameTrendingDto = youtubeTrendingService.findGame()
+        val trending: YoutubeOtherTrendingDto = youtubeTrendingService.findGame()
         model.addAttribute("type", "game")
         model.addAttribute("videos", trending.videos)
 
@@ -51,7 +49,7 @@ class YoutubeTrendingController(
 
     @GetMapping("/movie")
     fun movie(model: Model): String {
-        val trending: YoutubeMovieTrendingDto = youtubeTrendingService.findMovie()
+        val trending: YoutubeOtherTrendingDto = youtubeTrendingService.findMovie()
         model.addAttribute("type", "movie")
         model.addAttribute("videos", trending.videos)
 

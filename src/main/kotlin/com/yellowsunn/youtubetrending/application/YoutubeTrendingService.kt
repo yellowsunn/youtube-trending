@@ -1,10 +1,9 @@
 package com.yellowsunn.youtubetrending.application
 
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
-import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
-import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
-import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
+import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingType
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
+import com.yellowsunn.youtubetrending.dto.YoutubeOtherTrendingDto
 import org.springframework.stereotype.Service
 
 @Service
@@ -15,15 +14,15 @@ class YoutubeTrendingService(
         return youtubeTrendingHttpClient.findNowTrending()
     }
 
-    fun findMusic(): YoutubeMusicTrendingDto {
-        return youtubeTrendingHttpClient.findMusicTrending()
+    fun findMusic(): YoutubeOtherTrendingDto {
+        return youtubeTrendingHttpClient.findOtherTrending(YoutubeTrendingType.MUSIC)
     }
 
-    fun findGame(): YoutubeGameTrendingDto {
-        return youtubeTrendingHttpClient.findGameTrending()
+    fun findGame(): YoutubeOtherTrendingDto {
+        return youtubeTrendingHttpClient.findOtherTrending(YoutubeTrendingType.GAMES)
     }
 
-    fun findMovie(): YoutubeMovieTrendingDto {
-        return youtubeTrendingHttpClient.findMovieTrending()
+    fun findMovie(): YoutubeOtherTrendingDto {
+        return youtubeTrendingHttpClient.findOtherTrending(YoutubeTrendingType.MOVIES)
     }
 }

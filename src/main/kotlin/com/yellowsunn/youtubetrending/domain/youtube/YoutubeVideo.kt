@@ -12,6 +12,7 @@ data class YoutubeVideo(
     val publishedTimeText: String,
     val lengthText: String,
     val thumbnail: String,
+    val richThumbnail: String?,
 ) {
     fun viewCountText(): String {
         if (viewCount < 1_000L) {

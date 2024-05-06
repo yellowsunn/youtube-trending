@@ -10896,14 +10896,8 @@ ytd-two-column-browse-results-renderer {
         <div th:if="${type == 'now'}">
           <div th:replace="~{fragment/youtube-now-trending-fragment :: now-trending}"></div>
         </div>
-        <div th:if="${type == 'music'}">
-          <div th:replace="~{fragment/youtube-music-trending-fragment :: music-trending}"></div>
-        </div>
-        <div th:if="${type == 'game'}">
-          <div th:replace="~{fragment/youtube-game-trending-fragment :: game-trending}"></div>
-        </div>
-        <div th:if="${type == 'movie'}">
-          <div th:replace="~{fragment/youtube-movie-trending-fragment :: movie-trending}"></div>
+        <div th:unless="${type == 'now'}">
+          <div th:replace="~{fragment/youtube-other-trending-fragment :: other-trending}"></div>
         </div>
         <div id=survey class="style-scope ytd-browse"></div>
         <div id=metadata class="style-scope ytd-browse"></div>

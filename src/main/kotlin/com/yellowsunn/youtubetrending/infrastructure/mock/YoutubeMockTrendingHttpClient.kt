@@ -5,18 +5,13 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
-import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
-import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
-import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
+import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingType
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
-import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeGameTrendingHttpResponse
-import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMovieTrendingHttpResponse
-import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMusicTrendingHttpResponse
-import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeNowTrendingHttpResponse
+import com.yellowsunn.youtubetrending.dto.YoutubeOtherTrendingDto
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeTrendingHttpResponse
 import org.springframework.core.io.ClassPathResource
-import org.springframework.stereotype.Component
 
-//@Component
+// @Component
 class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
     private val objectMapper =
         jacksonObjectMapper()
@@ -26,8 +21,8 @@ class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
     override fun findNowTrending(): YoutubeNowTrendingDto {
         val resource = ClassPathResource("json/youtube-now-trending-sample.json")
 
-        val mockHttpResponse: YoutubeNowTrendingHttpResponse =
-            objectMapper.readValue<YoutubeNowTrendingHttpResponse>(resource.inputStream)
+        val mockHttpResponse: YoutubeTrendingHttpResponse =
+            objectMapper.readValue<YoutubeTrendingHttpResponse>(resource.inputStream)
 
         return YoutubeNowTrendingDto(
             videos = mockHttpResponse.toTrendingVideos(),
@@ -36,32 +31,18 @@ class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
         )
     }
 
-    override fun findMusicTrending(): YoutubeMusicTrendingDto {
-        val resource = ClassPathResource("json/youtube-music-trending-sample.json")
+    override fun findOtherTrending(trendingType: YoutubeTrendingType): YoutubeOtherTrendingDto {
+        val resource =
+            when (trendingType) {
+                YoutubeTrendingType.MUSIC -> ClassPathResource("json/youtube-music-trending-sample.json")
+                YoutubeTrendingType.GAMES -> ClassPathResource("json/youtube-game-trending-sample.json")
+                YoutubeTrendingType.MOVIES -> ClassPathResource("json/youtube-movie-trending-sample.json")
+                YoutubeTrendingType.NOW -> throw IllegalArgumentException("유효한 타입이 아닙니다.")
+            }
 
-        val mockHttpResponse = objectMapper.readValue<YoutubeMusicTrendingHttpResponse>(resource.inputStream)
+        val mockHttpResponse = objectMapper.readValue<YoutubeTrendingHttpResponse>(resource.inputStream)
 
-        return YoutubeMusicTrendingDto(
-            videos = mockHttpResponse.toTrendingVideos(),
-        )
-    }
-
-    override fun findGameTrending(): YoutubeGameTrendingDto {
-        val resource = ClassPathResource("json/youtube-game-trending-sample.json")
-
-        val mockHttpResponse = objectMapper.readValue<YoutubeGameTrendingHttpResponse>(resource.inputStream)
-
-        return YoutubeGameTrendingDto(
-            videos = mockHttpResponse.toTrendingVideos(),
-        )
-    }
-
-    override fun findMovieTrending(): YoutubeMovieTrendingDto {
-        val resource = ClassPathResource("json/youtube-movie-trending-sample.json")
-
-        val mockHttpResponse = objectMapper.readValue<YoutubeMovieTrendingHttpResponse>(resource.inputStream)
-
-        return YoutubeMovieTrendingDto(
+        return YoutubeOtherTrendingDto(
             videos = mockHttpResponse.toTrendingVideos(),
         )
     }
