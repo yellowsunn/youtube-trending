@@ -1,6 +1,7 @@
 package com.yellowsunn.youtubetrending.application
 
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
+import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
@@ -16,6 +17,10 @@ class YoutubeTrendingService(
 
     fun findMusic(): YoutubeMusicTrendingDto {
         return youtubeTrendingHttpClient.findMusicTrending()
+    }
+
+    fun findGame(): YoutubeGameTrendingDto {
+        return youtubeTrendingHttpClient.findGameTrending()
     }
 
     fun findMovie(): YoutubeMovieTrendingDto {

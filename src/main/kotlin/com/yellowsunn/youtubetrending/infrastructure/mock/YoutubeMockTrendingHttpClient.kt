@@ -5,9 +5,11 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
+import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeGameTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMovieTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMusicTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeNowTrendingHttpResponse
@@ -40,6 +42,16 @@ class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
         val mockHttpResponse = objectMapper.readValue<YoutubeMusicTrendingHttpResponse>(resource.inputStream)
 
         return YoutubeMusicTrendingDto(
+            videos = mockHttpResponse.toTrendingVideos(),
+        )
+    }
+
+    override fun findGameTrending(): YoutubeGameTrendingDto {
+        val resource = ClassPathResource("json/youtube-game-trending-sample.json")
+
+        val mockHttpResponse = objectMapper.readValue<YoutubeGameTrendingHttpResponse>(resource.inputStream)
+
+        return YoutubeGameTrendingDto(
             videos = mockHttpResponse.toTrendingVideos(),
         )
     }

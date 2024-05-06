@@ -1,5 +1,6 @@
 package com.yellowsunn.youtubetrending.infrastructure.http
 
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeGameTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMovieTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMusicTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeNowTrendingHttpResponse
@@ -21,7 +22,13 @@ interface YoutubeTrendingFeignClient {
     fun getMusicTrending(): YoutubeMusicTrendingHttpResponse
 
     @GetMapping(
-        "/trending?type=movie&geo=KR&lang=ko",
+        "/trending?type=games&geo=KR&lang=ko",
+        headers = ["X-RapidAPI-Host=yt-api.p.rapidapi.com", "X-RapidAPI-Key=\${rapid-api.key}"],
+    )
+    fun getGameTrending(): YoutubeGameTrendingHttpResponse
+
+    @GetMapping(
+        "/trending?type=movies&geo=KR&lang=ko",
         headers = ["X-RapidAPI-Host=yt-api.p.rapidapi.com", "X-RapidAPI-Key=\${rapid-api.key}"],
     )
     fun getMovieTrending(): YoutubeMovieTrendingHttpResponse

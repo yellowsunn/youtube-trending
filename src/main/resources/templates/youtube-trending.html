@@ -10794,7 +10794,8 @@ ytd-two-column-browse-results-renderer {
                                     class="yt-tab-group-shape-wiz yt-tab-group-shape-wiz--overflow-hidden style-scope ytd-tabbed-page-header">
                                   <div class=yt-tab-group-shape-wiz__tabs role=tablist>
                                     <yt-tab-shape class="yt-tab-shape-wiz yt-tab-shape-wiz--host-clickable" role=tab
-                                                  aria-selected=true tabindex=0 tab-identifier tab-title=최신 th:onclick="|location.href='@{/}'|">
+                                                  aria-selected=true tabindex=0 tab-identifier tab-title=최신
+                                                  th:onclick="|location.href='@{/}'|">
                                       <div class="yt-tab-shape-wiz__tab"
                                            th:classappend="${type eq 'now'} ? 'yt-tab-shape-wiz__tab--tab-selected' : ''">
                                         최신
@@ -10804,7 +10805,8 @@ ytd-two-column-browse-results-renderer {
                                           th:classappend="${type eq 'now'} ? 'yt-tab-shape-wiz__tab-bar--tab-bar-selected' : ''"></div>
                                     </yt-tab-shape>
                                     <yt-tab-shape class="yt-tab-shape-wiz yt-tab-shape-wiz--host-clickable" role=tab
-                                                  aria-selected=false tabindex=0 tab-identifier tab-title=음악 th:onclick="|location.href='@{/music}'|">
+                                                  aria-selected=false tabindex=0 tab-identifier tab-title=음악
+                                                  th:onclick="|location.href='@{/music}'|">
                                       <div class=yt-tab-shape-wiz__tab
                                            th:classappend="${type eq 'music'} ? 'yt-tab-shape-wiz__tab--tab-selected' : ''">
                                         음악
@@ -10813,15 +10815,25 @@ ytd-two-column-browse-results-renderer {
                                            th:classappend="${type eq 'music'} ? 'yt-tab-shape-wiz__tab-bar--tab-bar-selected' : ''"></div>
                                     </yt-tab-shape>
                                     <yt-tab-shape class="yt-tab-shape-wiz yt-tab-shape-wiz--host-clickable" role=tab
-                                                  aria-selected=false tabindex=0 tab-identifier tab-title=게임 th:onclick="|location.href='@{/game}'|">
-                                      <div class=yt-tab-shape-wiz__tab th:classappend="${type eq 'game'} ? 'yt-tab-shape-wiz__tab--tab-selected' : ''">게임</div>
-                                      <div class=yt-tab-shape-wiz__tab-bar th:classappend="${type eq 'game'} ? 'yt-tab-shape-wiz__tab-bar--tab-bar-selected' : ''"></div>
+                                                  aria-selected=false tabindex=0 tab-identifier tab-title=게임
+                                                  th:onclick="|location.href='@{/game}'|">
+                                      <div class=yt-tab-shape-wiz__tab
+                                           th:classappend="${type eq 'game'} ? 'yt-tab-shape-wiz__tab--tab-selected' : ''">
+                                        게임
+                                      </div>
+                                      <div class=yt-tab-shape-wiz__tab-bar
+                                           th:classappend="${type eq 'game'} ? 'yt-tab-shape-wiz__tab-bar--tab-bar-selected' : ''"></div>
                                     </yt-tab-shape>
                                     <yt-tab-shape
                                         class="yt-tab-shape-wiz yt-tab-shape-wiz__tab--last-tab yt-tab-shape-wiz--host-clickable"
-                                        role=tab aria-selected=false tabindex=0 tab-identifier tab-title=영화 th:onclick="|location.href='@{/movie}'|">
-                                      <div class=yt-tab-shape-wiz__tab th:classappend="${type eq 'movie'} ? 'yt-tab-shape-wiz__tab--tab-selected' : ''">영화</div>
-                                      <div class=yt-tab-shape-wiz__tab-bar th:classappend="${type eq 'movie'} ? 'yt-tab-shape-wiz__tab-bar--tab-bar-selected' : ''"></div>
+                                        role=tab aria-selected=false tabindex=0 tab-identifier tab-title=영화
+                                        th:onclick="|location.href='@{/movie}'|">
+                                      <div class=yt-tab-shape-wiz__tab
+                                           th:classappend="${type eq 'movie'} ? 'yt-tab-shape-wiz__tab--tab-selected' : ''">
+                                        영화
+                                      </div>
+                                      <div class=yt-tab-shape-wiz__tab-bar
+                                           th:classappend="${type eq 'movie'} ? 'yt-tab-shape-wiz__tab-bar--tab-bar-selected' : ''"></div>
                                     </yt-tab-shape>
                                   </div>
                                   <div class=yt-tab-group-shape-wiz__slider th:if="${type == 'now'}"
@@ -10886,6 +10898,9 @@ ytd-two-column-browse-results-renderer {
         </div>
         <div th:if="${type == 'music'}">
           <div th:replace="~{fragment/youtube-music-trending-fragment :: music-trending}"></div>
+        </div>
+        <div th:if="${type == 'game'}">
+          <div th:replace="~{fragment/youtube-game-trending-fragment :: game-trending}"></div>
         </div>
         <div th:if="${type == 'movie'}">
           <div th:replace="~{fragment/youtube-movie-trending-fragment :: movie-trending}"></div>

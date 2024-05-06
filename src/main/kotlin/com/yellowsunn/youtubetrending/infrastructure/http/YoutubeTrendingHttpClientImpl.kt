@@ -1,6 +1,7 @@
 package com.yellowsunn.youtubetrending.infrastructure.http
 
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
+import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
@@ -28,6 +29,10 @@ class YoutubeTrendingHttpClientImpl(
         return YoutubeMusicTrendingDto(
             videos = trending.toTrendingVideos(),
         )
+    }
+
+    override fun findGameTrending(): YoutubeGameTrendingDto {
+        TODO("Not yet implemented")
     }
 
     override fun findMovieTrending(): YoutubeMovieTrendingDto {

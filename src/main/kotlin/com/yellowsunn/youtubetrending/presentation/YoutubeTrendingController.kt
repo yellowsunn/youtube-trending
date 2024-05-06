@@ -2,6 +2,7 @@ package com.yellowsunn.youtubetrending.presentation
 
 import com.yellowsunn.youtubetrending.application.YoutubeTrendingService
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeVideo
+import com.yellowsunn.youtubetrending.dto.YoutubeGameTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
@@ -41,7 +42,9 @@ class YoutubeTrendingController(
 
     @GetMapping("/game")
     fun game(model: Model): String {
+        val trending: YoutubeGameTrendingDto = youtubeTrendingService.findGame()
         model.addAttribute("type", "game")
+        model.addAttribute("videos", trending.videos)
 
         return "youtube-trending"
     }
