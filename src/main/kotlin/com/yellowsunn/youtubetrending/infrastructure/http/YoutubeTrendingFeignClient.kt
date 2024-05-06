@@ -1,5 +1,6 @@
 package com.yellowsunn.youtubetrending.infrastructure.http
 
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMovieTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMusicTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeNowTrendingHttpResponse
 import org.springframework.cloud.openfeign.FeignClient
@@ -18,4 +19,10 @@ interface YoutubeTrendingFeignClient {
         headers = ["X-RapidAPI-Host=yt-api.p.rapidapi.com", "X-RapidAPI-Key=\${rapid-api.key}"],
     )
     fun getMusicTrending(): YoutubeMusicTrendingHttpResponse
+
+    @GetMapping(
+        "/trending?type=movie&geo=KR&lang=ko",
+        headers = ["X-RapidAPI-Host=yt-api.p.rapidapi.com", "X-RapidAPI-Key=\${rapid-api.key}"],
+    )
+    fun getMovieTrending(): YoutubeMovieTrendingHttpResponse
 }

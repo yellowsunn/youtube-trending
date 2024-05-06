@@ -1,6 +1,7 @@
 package com.yellowsunn.youtubetrending.application
 
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
+import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
 import org.springframework.stereotype.Service
@@ -15,5 +16,9 @@ class YoutubeTrendingService(
 
     fun findMusic(): YoutubeMusicTrendingDto {
         return youtubeTrendingHttpClient.findMusicTrending()
+    }
+
+    fun findMovie(): YoutubeMovieTrendingDto {
+        return youtubeTrendingHttpClient.findMovieTrending()
     }
 }

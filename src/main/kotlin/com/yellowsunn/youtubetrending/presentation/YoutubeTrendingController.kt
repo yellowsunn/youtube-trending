@@ -2,6 +2,7 @@ package com.yellowsunn.youtubetrending.presentation
 
 import com.yellowsunn.youtubetrending.application.YoutubeTrendingService
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeVideo
+import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
 import org.springframework.stereotype.Controller
@@ -47,7 +48,9 @@ class YoutubeTrendingController(
 
     @GetMapping("/movie")
     fun movie(model: Model): String {
+        val trending: YoutubeMovieTrendingDto = youtubeTrendingService.findMovie()
         model.addAttribute("type", "movie")
+        model.addAttribute("videos", trending.videos)
 
         return "youtube-trending"
     }

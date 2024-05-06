@@ -5,14 +5,16 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import com.yellowsunn.youtubetrending.domain.youtube.YoutubeTrendingHttpClient
+import com.yellowsunn.youtubetrending.dto.YoutubeMovieTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeMusicTrendingDto
 import com.yellowsunn.youtubetrending.dto.YoutubeNowTrendingDto
+import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMovieTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeMusicTrendingHttpResponse
 import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeNowTrendingHttpResponse
 import org.springframework.core.io.ClassPathResource
 import org.springframework.stereotype.Component
 
-//@Component
+@Component
 class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
     private val objectMapper =
         jacksonObjectMapper()
@@ -38,6 +40,16 @@ class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
         val mockHttpResponse = objectMapper.readValue<YoutubeMusicTrendingHttpResponse>(resource.inputStream)
 
         return YoutubeMusicTrendingDto(
+            videos = mockHttpResponse.toTrendingVideos(),
+        )
+    }
+
+    override fun findMovieTrending(): YoutubeMovieTrendingDto {
+        val resource = ClassPathResource("json/youtube-movie-trending-sample.json")
+
+        val mockHttpResponse = objectMapper.readValue<YoutubeMovieTrendingHttpResponse>(resource.inputStream)
+
+        return YoutubeMovieTrendingDto(
             videos = mockHttpResponse.toTrendingVideos(),
         )
     }
