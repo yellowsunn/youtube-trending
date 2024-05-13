@@ -10,7 +10,8 @@ spring:
             connect-timeout: 10000
             read-timeout: 10000
             logger-level: basic
-
+      httpclient:
+        disable-ssl-validation: true
 logging:
   level:
     com.yellowsunn.youtubetrending.infrastructure.http: debug
