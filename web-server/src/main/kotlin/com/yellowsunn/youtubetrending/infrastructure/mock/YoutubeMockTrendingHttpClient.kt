@@ -12,7 +12,7 @@ import com.yellowsunn.youtubetrending.infrastructure.http.response.YoutubeTrendi
 import org.springframework.core.io.ClassPathResource
 import org.springframework.stereotype.Component
 
-//@Component
+@Component
 class YoutubeMockTrendingHttpClient : YoutubeTrendingHttpClient {
     private val objectMapper =
         jacksonObjectMapper()
