@@ -34,11 +34,14 @@ class YoutubeTrendingJob(
     private val logger = LoggerFactory.getLogger(this.javaClass)
 
     @Bean
-    fun youtubeBatchJob(fetchYoutubeTrendingDataStep: Step): Job {
+    fun youtubeBatchJob(
+        fetchYoutubeTrendingDataStep: Step,
+        updateBatchHistoryToCompleteStep: Step,
+    ): Job {
         return JobBuilder("youtubeBatchJob", jobRepository)
             .start(createBatchHistoryStep())
             .next(fetchYoutubeTrendingDataStep)
-//            .next(updateBatchHistoryToCompleteStep())
+            .next(updateBatchHistoryToCompleteStep)
             .build()
     }
 
@@ -61,6 +64,24 @@ class YoutubeTrendingJob(
             .build()
     }
 
+    @Bean
+    @JobScope
+    fun updateBatchHistoryToCompleteStep(
+        @Value("#{jobExecutionContext['batchHistoryId']}") batchHistoryId: Long,
+    ): Step {
+        return StepBuilder("updateBatchHistoryToCompleteStep", jobRepository)
+            .tasklet({ _, _ ->
+                // logic
+                val entity = youtubeTrendingBatchRepository.findById(batchHistoryId).orElseThrow()
+                entity.complete()
+
+                youtubeTrendingBatchRepository.save(entity)
+
+                RepeatStatus.FINISHED
+            }, tx)
+            .build()
+    }
+
     @JobScope
     @Bean
     fun fetchYoutubeTrendingDataStep(
@@ -70,7 +91,7 @@ class YoutubeTrendingJob(
     ): Step {
         val reader = CustomItemReader(trendingHttpClient = youtubeTrendingHttpClient, pageSize = 50)
 
-        return StepBuilder("createBatchHistoryStep", jobRepository)
+        return StepBuilder("fetchYoutubeTrendingDataStep", jobRepository)
             .chunk<YoutubeVideo, YoutubeVideoEntity>(50, tx)
             .reader(reader)
             .processor(youtubeItemProcessor)

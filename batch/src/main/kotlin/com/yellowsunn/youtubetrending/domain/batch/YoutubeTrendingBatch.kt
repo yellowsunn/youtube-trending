@@ -11,5 +11,9 @@ data class YoutubeTrendingBatch(
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0L,
     val createAt: LocalDateTime,
-    val completed: Boolean = false,
-)
+    var completed: Boolean = false,
+) {
+    fun complete() {
+        this.completed = true
+    }
+}
